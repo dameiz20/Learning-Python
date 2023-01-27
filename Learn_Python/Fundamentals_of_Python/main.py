@@ -58,7 +58,7 @@ print(name)
 ##Boolean Operators
 
 condition1= True
-condition2 = false
+condition2 = False
 
 not condition1 # false 
 condition1 and condition2 # false
