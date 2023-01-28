@@ -61,8 +61,70 @@ condition1= True
 condition2 = False
 
 not condition1 # false 
-condition1 and condition2 # false
-condition1 or condition2 #true
+condition1 and condition2 # false both have to be true
+condition1 or condition2 #true one or the other has to be true
+
+##Bitwise Operators ( only used in very specific situations)
+#& performs binary AND
+#| performs binary OR
+#^ performs a binary XOR operation
+#~ perfoms a binary NOT operation
+#<< shift left operation
+#>> shift right operation
+
+## is and in operartors
+#is
+#in  membership operator
+
+#Ternary Operator
+#BEFORE OPERATOR:
+#def is_adult(age):
+#   if age > 18:
+#       return True
+#   else:
+#       Return False
+#
+#AFTER OPERATOR
+#def is_adult2(age):
+#   return True if age > 18 else False
+#
+# so it basically does everything in less lines of code by combining the code together
+
+#STRINGS
+
+#"Dakota"
+#'Dakota'
+#name = "Dakota"
+#name += " is my name" concatonating strings with variable
+
+#Multi line String
+#print("""Dakota is 
+# 
+# 21
+# 
+# years old
+# """)
+#
+#String Methods
+#print("dakota".upper) makes whatever is before it uppercase
+#print("dakota".lower) makes whatever is before it lowercase
+#print("dakota person".title) makes the first letter of each word a capital
+#print ("dakota".islower) checks to see if everything in string is lower case, returns a true or false value
+#
+#
+
+# ESCAPING CHARACTERS
+#name= "Dak\"ota" <-- the escape character is the backslash. it tells editor to ignore the rules and show the character after the backslash like normal
+#
+#
+
+#BOOLEANS
+# done = True
+#
+#if done:
+#   print("yes")
+#else:
+#   print("no")
 
 
 
