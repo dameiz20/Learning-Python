@@ -3,34 +3,7 @@ import random
 from random import randint
 import string
 
-
-#All Uppercase Password
-password = " "
-for i in range(10):
-    # setting our character to a random integer between 65 and 90 and setting it equal to i
-    i = chr(randint(65, 90)) # since all letters are numbers (binary) the 65-90 are A-Z capitalized 
-    password = str(password)+ i # take original password set it equal to a string and add the random letter (i) onto it and it will repeat 10x
-print(password)
-
-#All lowercase Password
-#password = " "
-#for i in range(10):
-    # setting our character to a random integer between 65 and 90 and setting it equal to i
-   # i = chr(randint(65, 90)).lower() # since all letters are numbers (binary) the 65-90 are A-Z capitalized 
-   # password = str(password)+ i # take original password set it equal to a string and add the random letter (i) onto it and it will repeat 10x
-#print(password)
-
-#Upper and lowercase Alternating password
-password =" "
-for i in range(5):
-    i = chr(randint(65,90)) # this setting the uppercase characters in the range of 5
-    for j in range(5):
-        j = chr(randint(65,90)).lower() # this is setting the lower case  characters in range of 5
-    password = str(password) + i + j  # this is combining the upper case and lowercase character together in alternating fasion to create a total of a 10 char password
-print(password)  # print out password
-
-
-# normal password
+# password that will work with  most pasword compliances
 password = " "
 for i in range(1):
     i = chr(randint(65, 90)) 
